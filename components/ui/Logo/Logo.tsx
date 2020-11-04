@@ -4,7 +4,6 @@ const Logo = ({ className = '', size = 0, ...props}) => {
       width={size / 2391.91 || 2391.91}
       height={size / 481.09 || 481.09}
       viewBox="0 0 2391.91 481.09"
-      fill="none"
       xmlns="http://www.w3.org/2000/svg"
       className={className}
       {...props}
