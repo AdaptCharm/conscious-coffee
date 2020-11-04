@@ -1,5 +1,6 @@
 import { FC } from 'react'
-import { Logo, Link } from '@components/ui'
+import Link from 'next/link'
+import { Logo } from '@components/ui'
 import n from './Navbar.module.css'
 interface Props {
   className?: string
