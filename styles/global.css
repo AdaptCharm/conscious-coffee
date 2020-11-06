@@ -939,7 +939,7 @@ a {
 
 
 
-/* Typography */
+/* Colours */
 .bg-primary {
   background-color: var(--background);
 }
@@ -956,6 +956,11 @@ a {
   color: var(--background);
 }
 
+
+
+
+
+/* Typography */
 .text-left {
   text-align: left;
 }
@@ -1048,4 +1053,17 @@ a {
 
 .rounded-large {
   border-radius: var(--radius-large);
+}
+
+
+
+
+
+/* Helpers */
+.ox-none {
+  overflow-x: hidden;
+}
+
+.z-100 {
+  z-index: 100;
 }
