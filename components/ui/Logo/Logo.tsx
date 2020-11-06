@@ -1,8 +1,12 @@
 const Logo = ({ className = '', size = 0, ...props}) => {
+  const width = 2391.91
+  const height = 481.09
+  
   return (
+
     <svg
-      width={size / 2391.91 || 2391.91}
-      height={size / 481.09 || 481.09}
+      width={width / size || width}
+      height={height / size || height}
       viewBox="0 0 2391.91 481.09"
       xmlns="http://www.w3.org/2000/svg"
       className={className}
