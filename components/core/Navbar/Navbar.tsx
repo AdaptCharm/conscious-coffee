@@ -1,5 +1,4 @@
 import { FC, useState } from 'react'
-import { useRouter } from 'next/router'
 import Link from 'next/link'
 import { Logo } from '@components/ui'
 import ArrowLeft from '@components/icons/ArrowLeft'
