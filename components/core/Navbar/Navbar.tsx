@@ -2,15 +2,10 @@ import { FC } from 'react'
 import Link from 'next/link'
 import { Logo } from '@components/ui'
 import n from './Navbar.module.css'
-interface Props {
-  className?: string
-}
 
-const Navbar: FC<Props> = ({ className }) => {
-  const rootClassName = className
-
+const Navbar: FC = () => {
   return (
-    <div className={rootClassName}>
+    <div className={n.root}>
       <Link href="/">
         <a className={n.logo} aria-label="Logo">
           <Logo size={8} />
