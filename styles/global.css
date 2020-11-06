@@ -6,6 +6,7 @@
 
   --header-height: 120px;
   --header-background-color: var(--background);
+  --header-overlay: hsla(0, 0%, 0%, 70%);
   --header-border-bottom: inset 0 -1px 0 0 hsla(0, 0%, 0%, 0.03);
 
   --radius-smallest: 0.375rem;
@@ -43,6 +44,10 @@ body {
 a {
   color: currentColor;
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline var(--background);
 }
 
 .debug {
@@ -1064,6 +1069,14 @@ a {
   overflow-x: hidden;
 }
 
+.d-none {
+  display: none;
+}
+
 .z-100 {
   z-index: 100;
+}
+
+.g-overlay {
+  background-color: var(--header-overlay);
 }

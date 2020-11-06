@@ -1,17 +1,31 @@
-import { FC } from 'react'
+import { FC, useState } from 'react'
+import { useRouter } from 'next/router'
 import Link from 'next/link'
 import { Logo } from '@components/ui'
+import ArrowLeft from '@components/icons/ArrowLeft'
+import ArrowRight from '@components/icons/ArrowRight'
 import n from './Navbar.module.css'
 
 const Navbar: FC = () => {
+  const [mobileNavShown, setMobileNavShown] = useState(false)
+
+  const toggle = () => setMobileNavShown(!mobileNavShown)
+
   return (
-    <div className={n.root}>
+    <div className="flex items-center justify-between px-5 py-5">
       <Link href="/">
         <a className={n.logo} aria-label="Logo">
           <Logo size={8} />
         </a>
       </Link>
-      <nav>
+      <span className={n.toggle} onClick={toggle}>
+        {mobileNavShown == true ? (
+          <ArrowLeft />
+        ) : (
+          <ArrowRight />
+        )}
+      </span>
+      <nav className={`${n.mobileNav} ${mobileNavShown ? n.active : ''}`}>
         <Link href="/">
           <a className={n.link}>Home</a>
         </Link>
