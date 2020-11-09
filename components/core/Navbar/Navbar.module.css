@@ -1,9 +1,17 @@
-.mobileNav {
+.navbar {
+  background-color: var(--header-overlay);
+  padding: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav {
   display: none;
 }
 
 @media (min-width: 769px) {
-  .mobileNav {
+  .nav {
     display: block;
   }
 }
@@ -35,6 +43,10 @@
   .toggle {
     display: none;
   }
+}
+
+.link {
+  color: var(--background);
 }
 
 .link:not(:first-child) {

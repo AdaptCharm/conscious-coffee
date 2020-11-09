@@ -11,7 +11,7 @@ const Navbar: FC = () => {
   const toggle = () => setMobileNavShown(!mobileNavShown)
 
   return (
-    <div className="flex items-center justify-between px-5 py-5">
+    <div className={n.navbar}>
       <Link href="/">
         <a className={n.logo} aria-label="Logo">
           <Logo size={8} />
@@ -24,11 +24,11 @@ const Navbar: FC = () => {
           <ArrowRight />
         )}
       </span>
-      <nav className={`${n.mobileNav} ${mobileNavShown ? n.active : ''}`}>
+      <nav className={`${n.nav} ${mobileNavShown ? n.active : ''}`}>
         <Link href="/">
           <a className={n.link}>Home</a>
         </Link>
-        <Link href="/about-us">
+        <Link href="/about">
           <a className={n.link}>About us</a>
         </Link>
         <Link href="/locations">
