@@ -1,0 +1,11 @@
+.layout {
+  background-color: var(--header-overlay);
+  position: fixed;
+  z-index: 97;
+  width: 100%;
+}
+
+.inner {
+  margin: 0 auto;
+  max-width: 960px;
+}

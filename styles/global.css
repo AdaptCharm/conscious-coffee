@@ -2,7 +2,7 @@
 
 :root {
   --background: hsl(40, 20%, 97%);
-  --foreground: hsl(142, 51%, 21%);
+  --foreground: hsl(0, 0%, 13%);
 
   --header-height: 120px;
   --header-background-color: var(--background);
