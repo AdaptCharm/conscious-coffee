@@ -1,5 +1,5 @@
 .layout {
-  background-color: var(--header-overlay);
+  background-color: hsla(0, 0%, 0%, 70%);
   position: fixed;
   z-index: 97;
   width: 100%;

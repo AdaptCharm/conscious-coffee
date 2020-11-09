@@ -36,6 +36,7 @@
 
 .link {
   color: var(--background);
+  font-family: var(--font-primary);
   margin-bottom: 0.5rem;
 }
 
