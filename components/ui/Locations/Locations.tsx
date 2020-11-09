@@ -1,4 +1,5 @@
 import { FC } from 'react'
+import Image from 'next/image'
 import l from './Locations.module.css'
 
 const Locations: FC = () => {
@@ -14,10 +15,29 @@ const Locations: FC = () => {
           <p className={l.desc}>
             Vivamus arcu felis bibendum ut tristique. Odio eu feugiat pretium nibh ipsum consequat. Magna eget est lorem ipsum dolor sit amet. Tristique senectus et netus et malesuada fames ac turpis egestal.
           </p>
-          <p className={l.desc}>
-            Porta lorem mollis aliquam ut porttitor. Id porta nibh venenatis cras sed. Enim ut sem viverra aliquet eget sit amet tellul. Ut morbi tincidunt augue interdum velit euismod in pellentesque massa. Eleifend donec pretium vulputate sapien nec. Pharetra convallis posuere morbi leo.
-          </p>
         </div>
+        <aside className={l.aside}>
+          <h2 className={l.title}>
+            Bergen
+          </h2>
+          <Image
+            src="/bergen.jpg"
+            alt="Bergen"
+            width={400}
+            height={200}
+          />
+        </aside>
+        <aside className={l.aside}>
+          <h2 className={l.title}>
+            Oslo
+          </h2>
+          <Image
+            src="/oslo.jpg"
+            alt="Oslo"
+            width={400}
+            height={200}
+          />
+        </aside>
       </div>
     </section>
   )

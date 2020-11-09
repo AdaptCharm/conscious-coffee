@@ -22,3 +22,26 @@
 .desc {
   max-width: 42ch;
 }
+
+.aside {
+  padding-top: 12vh;
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+@media (min-width: 769px) {
+  .aside {
+    flex-direction: row;
+  }
+
+  .aside h2 {
+    margin-right: 14rem;
+  }
+
+  .aside img {
+    border-radius: var(--radius-small);
+  }
+}

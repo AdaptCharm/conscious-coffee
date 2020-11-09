@@ -25,7 +25,10 @@ const About: FC = () => {
         </div>
         <div className={a.content}>
           <p className={a.desc}>
-            In cursus turpis massa tincidunt dui ut. Leo in vitae turpis massa sed elementum tempus egestas sed. Dolor sit amet consectetur adipiscing elit duis. Dolor magna eget est lorem ipsum. Etiam erat velit scelerisque in dictum non consectetur a erat. Nisl nisi scelerisque eu ultrices vitae. Tincidunt dui ut ornare lectus sit. Leo a diam sollicitudin tempor. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo. Vel facilisis volutpat est velit egestas. Ultricies mi quis hendrerit dolor magna eget. Pellentesque habitant morbi tristique senectus. Quam nulla porttitor massa id neque aliquam. Pellentesque dignissim enim sit amet venenatis urna cursus eget.
+            In cursus turpis massa tincidunt dui ut. Leo in vitae turpis massa sed elementum tempus egestas sed. Dolor sit amet consectetur adipiscing elit duis. Dolor magna eget est lorem ipsum. Etiam erat velit scelerisque in dictum non consectetur a erat.
+          </p>
+          <p className={a.desc}>
+          Nisl nisi scelerisque eu ultrices vitae. Tincidunt dui ut ornare lectus sit. Leo a diam sollicitudin tempor. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo. Vel facilisis volutpat est velit egestas. Ultricies mi quis hendrerit dolor magna eget. Pellentesque habitant morbi tristique senectus. Quam nulla porttitor massa id neque aliquam. Pellentesque dignissim enim sit amet venenatis urna cursus eget.
           </p>
         </div>
       </div>
