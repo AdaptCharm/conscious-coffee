@@ -38,8 +38,8 @@ const Footer: FC = () => {
           <Image
             src="/icon.png"
             alt="Conscious coffee"
-            width={100}
-            height={100}
+            width={120}
+            height={101}
           />
         </a>
       </div>
