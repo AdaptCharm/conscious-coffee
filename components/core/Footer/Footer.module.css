@@ -1,0 +1,20 @@
+.footer {
+  padding: 15vh;
+  background-color: #25160B;
+}
+
+.inner {
+  margin: 0 auto;
+  max-width: 960px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link {
+  color: var(--background);
+}
+
+.link:not(:first-child) {
+  margin-left: 48px;
+}

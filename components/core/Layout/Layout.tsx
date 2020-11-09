@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import { Navbar } from '@components/core'
+import { Navbar, Footer } from '@components/core'
 import l from './Layout.module.css'
 
 const Layout: FC = ({ children }) => {
@@ -11,6 +11,7 @@ const Layout: FC = ({ children }) => {
         </div>
       </header>
       <main>{children}</main>
+      <Footer />
     </>
   )
 }
