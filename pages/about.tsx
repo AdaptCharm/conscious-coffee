@@ -1,9 +1,10 @@
 import { Layout } from '@components/core'
+import { About } from '@components/ui'
 
-export default function About() {
+export default function A() {
   return (
-    <div></div>
+    <About />
   )
 }
 
-About.Layout = Layout
+A.Layout = Layout

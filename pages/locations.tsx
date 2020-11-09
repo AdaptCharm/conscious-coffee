@@ -1,9 +1,10 @@
 import { Layout } from '@components/core'
+import { Locations } from '@components/ui' 
 
-export default function Locations() {
+export default function L() {
   return (
-    <div></div>
+    <Locations />
   )
 }
 
-Locations.Layout = Layout
+L.Layout = Layout

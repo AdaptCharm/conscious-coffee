@@ -1,9 +1,10 @@
 import { Layout } from '@components/core'
+import { Contact } from '@components/ui'
 
-export default function Contact() {
+export default function C() {
   return (
-    <div></div>
+    <Contact />
   )
 }
 
-Contact.Layout = Layout
+C.Layout = Layout
