@@ -11,17 +11,13 @@
   align-items: center;
 }
 
-.heading, .desc {
+.heading {
   margin-bottom: 2rem;
 }
 
 .title {
   font-size: 4rem;
   font-family: var(--font-secondary);
-}
-
-.desc {
-  max-width: 42ch;
 }
 
 .form {
@@ -42,10 +38,13 @@
   padding: 12px 20px;
   border-radius: var(--radius-small);
   border: 1px solid transparent;
+  width: 100%;
+  min-width: 280px;
 }
 
 .form input:hover {
   border: 1px solid var(--foreground);
+  transition: border .3s ease-in-out;
 }
 
 .form input:focus {
@@ -54,4 +53,6 @@
 
 .form input[type="submit"] {
   margin-top: 1.5rem;
+  background-color: var(--foreground);
+  color: var(--background);
 }
