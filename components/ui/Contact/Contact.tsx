@@ -25,7 +25,7 @@ const Contact: FC = () => {
           </label>
           <label>
             Message
-            <input type="text" name="message" />
+            <textarea name="message"></textarea>
           </label>
           <input className="button" type="submit" value="Submit" />
         </form>
