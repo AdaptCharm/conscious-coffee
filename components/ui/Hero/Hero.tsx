@@ -9,7 +9,7 @@ const Hero: FC = () => {
         <h1 className={h.title}>
           Think Different, Think Organic
         </h1>
-        <Link href="/">
+        <Link href="/locations">
           <a className="button" aria-label="Our locations">
             Our Locations
           </a>
