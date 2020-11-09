@@ -6,7 +6,7 @@ const Footer: FC = () => {
   return (
     <footer className={f.footer}>
       <div className={f.inner}>
-        <div>
+        <div className={f.content}>
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -32,7 +32,9 @@ const Footer: FC = () => {
             About us
           </a>
         </div>
-        <a href="/">
+        <a
+          href="/"
+        >
           <Image
             src="/icon.png"
             alt="Conscious coffee"
