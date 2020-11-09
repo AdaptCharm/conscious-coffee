@@ -1,0 +1,13 @@
+.hero {
+  min-height: 100vh;
+  padding-top: 30vh;
+  background: url(/hero.jpg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.inner {
+  margin: 0 auto;
+  max-width: 960px;
+}
