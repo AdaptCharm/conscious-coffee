@@ -85,3 +85,15 @@ a:hover {
 .rounded-large {
   border-radius: var(--radius-large);
 }
+
+
+/* Section */
+.section {
+  padding: 25vh 3.75rem;
+  font-family: var(--font-secondary);
+}
+
+.inner {
+  margin: 0 auto;
+  max-width: 960px;
+}
