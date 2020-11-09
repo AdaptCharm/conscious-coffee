@@ -87,6 +87,21 @@ a:hover {
 }
 
 
+/* Button */
+.button {
+  font-family: var(--font-primary);
+  border-radius: var(--radius-small);
+  padding: 12px 24px;
+  background-color: #F4E6D5;
+}
+
+.button:hover {
+  text-decoration: none;
+  opacity: 0.8;
+  transition: opacity 0.3s ease-in-out;
+}
+
+
 /* Section */
 .section {
   padding: 25vh 3.75rem;

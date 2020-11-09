@@ -15,15 +15,15 @@
   flex-direction: column;
 }
 
-.title, .link {
-  font-family: var(--font-primary);
-  border-radius: var(--radius-small);
+.title, .button {
 }
 
 .title {
   padding: 20px;
   color: var(--background);
   background-color: hsla(0, 0%, 0%, .6);
+  border-radius: var(--radius-small);
+  font-family: var(--font-primary);
   font-size: 1.5rem;
   font-weight: 600;
   line-height: 1.6em;
@@ -34,15 +34,4 @@
   .title {
     font-size: 3rem;
   }
-}
-
-.link {
-  padding: 12px 24px;
-  background-color: #F4E6D5;
-}
-
-.link:hover {
-  text-decoration: none;
-  opacity: 0.8;
-  transition: opacity 0.3s ease-in-out;
 }

@@ -10,7 +10,7 @@ const Hero: FC = () => {
           Think Different, Think Organic
         </h1>
         <Link href="/">
-          <a className={h.link} aria-label="Our locations">
+          <a className="button" aria-label="Our locations">
             Our Locations
           </a>
         </Link>
